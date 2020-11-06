@@ -1,8 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="100" id="navbar-top">
   <div class="container">
     <div class="navbar-translate">
-      <a class="navbar-brand" placement="bottom" [routerLink]="['/']"
-        tooltip="ng|she es una iniciativa de Angular Bolivia">
+      <a class="navbar-brand" placement="bottom" routerLink="/" tooltip="ng|she es una iniciativa de Angular Bolivia">
         ng <span> | </span> she
       </a>
       <button aria-controls="navigation-index" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler"
@@ -15,7 +14,7 @@
     <div class="navbar-collapse justify-content-end" [collapse]="isCollapsed" id="navigation">
       <div class="navbar-collapse-header">
         <div class="row">
-          <div class="col-6 collapse-brand"><a> ng|she </a></div>
+          <div class="col-6 collapse-brand"><a routerLink="/"> ng|she </a></div>
           <div class="col-6 collapse-close text-right">
             <button aria-controls="navigation-index" aria-label="Toggle navigation" class="navbar-toggler"
               [attr.aria-expanded]="!isCollapsed" (click)="isCollapsed = !isCollapsed" id="navigation" type="button">
