@@ -21,9 +21,24 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './home/navbar/navbar.component';
 import { BannerComponent } from './home/banner/banner.component';
+import { MentorsComponent } from './home/mentors/mentors.component';
+import { OrganizersComponent } from './home/organizers/organizers.component';
+import { FooterComponent } from './home/footer/footer.component';
+import { PartnersComponent } from './home/partners/partners.component';
+import { AboutUsComponent } from './home/about-us/about-us.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NavbarComponent, BannerComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    NavbarComponent,
+    BannerComponent,
+    MentorsComponent,
+    OrganizersComponent,
+    FooterComponent,
+    PartnersComponent,
+    AboutUsComponent,
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
