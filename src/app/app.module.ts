@@ -27,6 +27,7 @@ import { OrganizersComponent } from './home/organizers/organizers.component';
 import { FooterComponent } from './home/footer/footer.component';
 import { PartnersComponent } from './home/partners/partners.component';
 import { AboutUsComponent } from './home/about-us/about-us.component';
+import { ParticipantsComponent } from './home/participants/participants.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { AboutUsComponent } from './home/about-us/about-us.component';
     FooterComponent,
     PartnersComponent,
     AboutUsComponent,
+    ParticipantsComponent,
   ],
   imports: [
     BrowserModule,
