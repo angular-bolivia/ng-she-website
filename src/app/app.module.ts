@@ -20,24 +20,21 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { NavbarComponent } from './home/navbar/navbar.component';
 import { BannerComponent } from './home/banner/banner.component';
 import { MentorsComponent } from './home/mentors/mentors.component';
 import { OrganizersComponent } from './home/organizers/organizers.component';
-import { FooterComponent } from './home/footer/footer.component';
 import { PartnersComponent } from './home/partners/partners.component';
 import { AboutUsComponent } from './home/about-us/about-us.component';
 import { ParticipantsComponent } from './home/participants/participants.component';
+import { LayoutModule } from './layout/layout.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent,
     BannerComponent,
     MentorsComponent,
     OrganizersComponent,
-    FooterComponent,
     PartnersComponent,
     AboutUsComponent,
     ParticipantsComponent,
@@ -60,6 +57,7 @@ import { ParticipantsComponent } from './home/participants/participants.componen
     CarouselModule.forRoot(),
     ModalModule.forRoot(),
     ScullyLibModule,
+    LayoutModule,
   ],
   bootstrap: [AppComponent],
 })
