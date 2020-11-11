@@ -8,7 +8,14 @@ const routes: Routes = [
     path: '',
     component: HomeComponent,
   },
-  { path: 'blog', loadChildren: () => import('./blog/blog.module').then(m => m.BlogModule) },
+  {
+    path: 'blog',
+    loadChildren: () => import('./blog/blog.module').then((m) => m.BlogModule),
+  },
+  {
+    path: 'team',
+    loadChildren: () => import('./team/team.module').then((m) => m.TeamModule),
+  },
   {
     path: '**',
     redirectTo: '',

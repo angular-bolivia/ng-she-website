@@ -15,7 +15,8 @@ export class OrganizersComponent implements OnInit {
   selectedOrganizer: Organizer;
   organizers: Organizer[] = [
     {
-      name: 'Griss Garcia',
+      name: 'Maria Griselda Garcia Flores',
+      shortName: 'Griss Garcia',
       imageSrc: 'assets/img/organizers/griss.jpg',
       bio: `Ingeniera de sistemas con posgrado en gestión de tecnologías de la información. Desarrolladora web. Lead coorganizer de
         las comunidades: Angular Bolivia, GP4Tech. Women techmaker ambassador, facilitadora #IAmRemarkable. Entusiasta por el
@@ -38,7 +39,8 @@ export class OrganizersComponent implements OnInit {
       ],
     },
     {
-      name: 'Lizzy Mendivil',
+      name: 'Lizzy Mendivil Bejarano',
+      shortName: 'Lizzy Mendivil',
       imageSrc: 'assets/img/organizers/lizzy.jpg',
       bio: `Frontend Developer en Jalasoft. Trainer en Fundación Jala. Lead en GP4Tech. Co-Organizer en Angular Bolivia. Le gusta
         compartir sus conocimientos como speaker en tech events y a través de su blog. Cuando no está desarrollando, le gusta
@@ -59,9 +61,21 @@ export class OrganizersComponent implements OnInit {
       ],
     },
     {
-      name: 'Gaby Torrico',
+      name: 'Gabriela Torrico',
+      shortName: 'Gaby Torrico',
       imageSrc: 'assets/img/organizers/gaby.jpg',
-      bio: '',
+      bio: `Una chica extrovertida, amante de las redes sociales y la tecnología, apasionada por el desarrollo web. Disfruta mucho
+        enseñar a los demás.`,
+      socialLinks: [
+        {
+          icon: 'fab fa-twitter',
+          link: 'https://twitter.com/Gaby_Torrico',
+        },
+        {
+          icon: 'fab fa-linkedin',
+          link: 'https://www.linkedin.com/in/gabriela-torrico-33925416a',
+        },
+      ],
     },
   ];
 
