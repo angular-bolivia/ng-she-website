@@ -1,19 +1,27 @@
 import { Component, OnInit, HostListener, OnDestroy } from '@angular/core';
 
+import { ScrollTopService } from './core/services/scroll-top.service';
+
 @Component({
   selector: 'ngs-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit, OnDestroy {
+  constructor(private scrollTopService: ScrollTopService) {}
+
   ngOnInit(): void {
     this.onWindowScroll();
+    this.scrollTopService.activateScrollTop();
+
     const body = document.getElementsByTagName('body')[0];
+
     body.classList.add('index-page');
   }
 
   ngOnDestroy(): void {
     const body = document.getElementsByTagName('body')[0];
+
     body.classList.remove('index-page');
   }
 
