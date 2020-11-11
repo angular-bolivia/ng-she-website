@@ -27,6 +27,8 @@ import { PartnersComponent } from './home/partners/partners.component';
 import { AboutUsComponent } from './home/about-us/about-us.component';
 import { ParticipantsComponent } from './home/participants/participants.component';
 import { LayoutModule } from './layout/layout.module';
+import { MainArticlesComponent } from './home/main-articles/main-articles.component';
+import { ArticleCardModule } from './shared/article-card/article-card.module';
 
 @NgModule({
   declarations: [
@@ -38,6 +40,7 @@ import { LayoutModule } from './layout/layout.module';
     PartnersComponent,
     AboutUsComponent,
     ParticipantsComponent,
+    MainArticlesComponent,
   ],
   imports: [
     BrowserModule,
@@ -58,6 +61,7 @@ import { LayoutModule } from './layout/layout.module';
     ModalModule.forRoot(),
     ScullyLibModule,
     LayoutModule,
+    ArticleCardModule,
   ],
   bootstrap: [AppComponent],
 })

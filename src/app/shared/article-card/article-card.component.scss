@@ -1,0 +1,19 @@
+.card {
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-1px);
+    -webkit-transform: translateY(-1px);
+  }
+}
+
+.card-img {
+  object-fit: cover;
+  opacity: 0.3;
+}
+
+.card-description {
+  overflow: hidden;
+  line-height: 1.5em;
+  max-height: 4.5em;
+}

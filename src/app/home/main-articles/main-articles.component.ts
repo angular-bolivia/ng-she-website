@@ -1,13 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
-declare var ng: any;
-
 @Component({
-  selector: 'ngs-blog',
-  templateUrl: './blog.component.html',
-  styleUrls: ['./blog.component.scss'],
+  selector: 'ngs-main-articles',
+  templateUrl: './main-articles.component.html',
+  styleUrls: ['./main-articles.component.scss'],
 })
-export class BlogComponent implements OnInit {
+export class MainArticlesComponent implements OnInit {
   articles = [
     {
       title: 'Código de conducta',
@@ -20,7 +18,7 @@ export class BlogComponent implements OnInit {
     },
   ];
 
-  ngOnInit(): void {}
-
   constructor() {}
+
+  ngOnInit(): void {}
 }
