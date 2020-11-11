@@ -29,6 +29,7 @@ import { ParticipantsComponent } from './home/participants/participants.componen
 import { LayoutModule } from './layout/layout.module';
 import { MainArticlesComponent } from './home/main-articles/main-articles.component';
 import { ArticleCardModule } from './shared/article-card/article-card.module';
+import { OrganizerModalContentModule } from './shared/organizer-modal-content/organizer-modal-content.module';
 
 @NgModule({
   declarations: [
@@ -62,6 +63,7 @@ import { ArticleCardModule } from './shared/article-card/article-card.module';
     ScullyLibModule,
     LayoutModule,
     ArticleCardModule,
+    OrganizerModalContentModule,
   ],
   bootstrap: [AppComponent],
 })

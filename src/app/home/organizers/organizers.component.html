@@ -1,30 +1,23 @@
 <section class="section section-lg">
   <div class="container">
-    <div id="images" class="text-center">
-      <h3 class="mb-5">Conoce al equipo detrás de ng|she</h3>
+    <div class="text-center">
+      <h3 class="mb-5">Conoce a las organizadoras liderando ng|she</h3>
       <div class="row">
-        <div class="col-sm-4 col-6">
-          <small class="d-block text-uppercase font-weight-bold mb-4">
-            Griss Garcia
-          </small>
-          <img alt="foto de Griss Garcia" class="img-fluid rounded shadow-lg organizer-picture"
-            src="assets/img/organizers/griss.jpg">
-        </div>
-        <div class="col-sm-4 col-6">
-          <small class="d-block text-uppercase font-weight-bold mb-4">
-            Lizzy Mendivil
-          </small>
-          <img alt="foto de Lizzy Mendivil" class="img-fluid rounded shadow-lg organizer-picture"
-            src="assets/img/organizers/lizzy.jpg">
-        </div>
-        <div class="col-sm-4 col-6 mt-5 mt-sm-0">
-          <small class="d-block text-uppercase font-weight-bold mb-4">
-            Gaby Torrico
-          </small>
-          <img alt="foto de Gaby Torrico" class="img-fluid rounded shadow-lg organizer-picture"
-            src="assets/img/organizers/gaby.jpg">
+        <div *ngFor="let organizer of organizers" class="mb-5 col-sm-4 col-6">
+          <a class="mb-4 d-block text-uppercase font-weight-bold text-info" data-target="#organizerModal"
+            (click)="openOrganizerModal(organizer)">
+            {{ organizer.name }}
+          </a>
+          <img alt="foto de Griss Garcia" class="img-fluid rounded shadow-lg clickable organizer-picture"
+            [src]="organizer.imageSrc" data-target="#organizerModal" (click)="openOrganizerModal(organizer)">
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<div aria-hidden="true" aria-labelledby="organizerModalLabel" bsModal class="modal fade" #organizerModal="bs-modal"
+  id="organizerModal" role="dialog" tabindex="-1">
+  <ngs-organizer-modal-content [organizer]="selectedOrganizer" (closeModal)="organizerModal.hide()">
+  </ngs-organizer-modal-content>
+</div>

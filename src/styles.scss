@@ -9,7 +9,24 @@ main {
   flex: 1 0 auto;
 }
 
+a {
+  cursor: pointer !important;
+}
+
+.text-right {
+  float: right;
+}
+
 .vertical-align {
   display: flex;
   align-items: center;
+}
+
+.clickable {
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-1px);
+    -webkit-transform: translateY(-1px);
+  }
 }
