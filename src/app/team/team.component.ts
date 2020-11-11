@@ -4,6 +4,7 @@ import { ModalDirective } from 'ngx-bootstrap/modal';
 import { timer } from 'rxjs';
 
 import { Organizer } from '../core/models/organizer.model';
+import { MetaTagsUpdaterService } from '../core/services/meta-tags-updater.service';
 
 @Component({
   selector: 'ngs-team',
@@ -194,9 +195,14 @@ export class TeamComponent implements OnInit {
     },
   ];
 
-  constructor() {}
+  constructor(private metaUpdater: MetaTagsUpdaterService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.metaUpdater.updateMetaTags(
+      'Equipo organizador',
+      'Conoce al equipo detrás de ng|she.'
+    );
+  }
 
   openOrganizerModal(organizer: Organizer): void {
     this.selectedOrganizer = organizer;

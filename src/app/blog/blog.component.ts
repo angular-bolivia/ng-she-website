@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { MetaTagsUpdaterService } from '../core/services/meta-tags-updater.service';
+
 declare var ng: any;
 
 @Component({
@@ -20,7 +22,12 @@ export class BlogComponent implements OnInit {
     },
   ];
 
-  ngOnInit(): void {}
+  constructor(private metaUpdater: MetaTagsUpdaterService) {}
 
-  constructor() {}
+  ngOnInit(): void {
+    this.metaUpdater.updateMetaTags(
+      'Blog',
+      'Lee los últimos artículos relacionados al ng|she y sus políticas.'
+    );
+  }
 }
