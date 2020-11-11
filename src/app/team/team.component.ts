@@ -154,7 +154,7 @@ export class TeamComponent implements OnInit {
     },
     {
       name: 'Fernando Quinteros Gutierrez',
-      shortName: 'Fernando Quinteros',
+      shortName: 'Fer Quinteros',
       imageSrc: 'assets/img/organizers/fer.jpg',
       bio: `Fernando es un estudiante del colegio San Agustín, entusiasmado por crear proyectos con tecnologías web y mobile. Le
         gusta poder compartir su conocimiento por diferentes medios como ser su blog personal o dando charlas técnicas.`,

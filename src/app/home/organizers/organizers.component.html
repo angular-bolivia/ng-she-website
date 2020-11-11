@@ -1,8 +1,8 @@
 <section class="section section-lg">
   <div class="container text-center">
     <h3 class="mb-5">Conoce a las organizadoras liderando ng|she</h3>
-    <div class="row">
-      <div *ngFor="let organizer of organizers" class="mb-5 col-sm-4 col-6">
+    <div class="row justify-content-center">
+      <div data-aos="fade-up" *ngFor="let organizer of organizers" class="mb-5 col-sm-4 col-6">
         <div class="mb-3">
           <a class="text-uppercase font-weight-bold text-info" data-target="#organizerModal"
             (click)="openOrganizerModal(organizer)">

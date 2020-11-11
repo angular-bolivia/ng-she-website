@@ -28,7 +28,8 @@
               "src/styles.scss",
               "src/assets/css/nucleo-icons.css",
               "src/assets/scss/blk-design-system.scss",
-              "src/assets/demo/demo.css"
+              "src/assets/demo/demo.css",
+              "node_modules/aos/dist/aos.css"
             ],
             "scripts": []
           },
@@ -92,7 +93,8 @@
               "src/styles.scss",
               "src/assets/css/nucleo-icons.css",
               "src/assets/scss/blk-design-system.scss",
-              "src/assets/demo/demo.css"
+              "src/assets/demo/demo.css",
+              "node_modules/aos/dist/aos.css"
             ],
             "scripts": []
           }

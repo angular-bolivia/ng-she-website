@@ -1,5 +1,7 @@
 import { Component, OnInit, HostListener, OnDestroy } from '@angular/core';
 
+import * as AOS from 'aos';
+
 import { ScrollTopService } from './core/services/scroll-top.service';
 
 @Component({
@@ -11,6 +13,7 @@ export class AppComponent implements OnInit, OnDestroy {
   constructor(private scrollTopService: ScrollTopService) {}
 
   ngOnInit(): void {
+    AOS.init();
     this.onWindowScroll();
     this.scrollTopService.activateScrollTop();
 
