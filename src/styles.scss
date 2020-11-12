@@ -47,6 +47,11 @@ h3 {
 }
 
 /* highlight.js */
+/* code section */
+.hljs {
+  margin-top: 22px !important;
+}
+
 /* for block of numbers */
 .hljs-ln-numbers {
   -webkit-touch-callout: none;
@@ -66,4 +71,10 @@ h3 {
 /* for block of code */
 .hljs-ln-code {
   padding-left: 10px !important;
+}
+
+/* copy-to-clipboard code */
+.code-badge {
+  border-radius: 7px 7px 0 0 !important;
+  right: 9px !important;
 }

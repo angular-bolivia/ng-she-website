@@ -36,7 +36,9 @@
               "src/assets/demo/demo.css",
               "node_modules/aos/dist/aos.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/highlightjs-badge/highlightjs-badge.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -106,7 +108,9 @@
               "src/assets/demo/demo.css",
               "node_modules/aos/dist/aos.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/highlightjs-badge/highlightjs-badge.min.js"
+            ]
           }
         },
         "lint": {

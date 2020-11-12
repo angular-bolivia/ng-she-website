@@ -31,6 +31,10 @@ export class ArticleComponent implements OnInit, AfterViewChecked {
   enableCheck: boolean;
   currentUrl: string;
 
+  private get window(): any {
+    return window as any;
+  }
+
   constructor(
     private router: Router,
     private element: ElementRef,
@@ -62,6 +66,7 @@ export class ArticleComponent implements OnInit, AfterViewChecked {
         blocks.forEach((block) => {
           hljs.highlightBlock(block);
           hljs.lineNumbersBlock(block);
+          this.window.highlightJsBadge();
         });
 
         this.enableCheck = false;
