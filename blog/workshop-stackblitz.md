@@ -17,13 +17,17 @@ slug: workshop-stackblitz
 
 Entra a <a href="https://stackblitz.com" target="_blank" rel="noopener noreferrer">stackblitz.com</a>, verás algo como esto, selecciona Angular:
 
-![Página principal de Stackblitz](/assets/img/stackblitz.png "Página principal de Stackblitz")
+<div>
+  <img src="/assets/img/stackblitz.png" alt="Página principal de Stackblitz">
+</div>
 
 ## Paso #2
 
 Una vez que el proyecto esté creado, verás algo como esto:
 
-![Estructura de Stackblitz](/assets/img/stackblitz-1.png "Estructura de Stackblitz")
+<div>
+  <img src="/assets/img/stackblitz-1.png" alt="Estructura de Stackblitz">
+</div>
 
 ## Paso #3
 
@@ -33,7 +37,9 @@ Dentro de la carpeta `app` vamos a buscar el archivo `app.component.html`, este 
 
 Reemplaza: `Start editing to see some magic happen :)`, por `Hola mundo`.
 
-![Editor de Stackblitz](/assets/img/stackblitz-2.png "Editor de Stackblitz")
+<div>
+  <img src="/assets/img/stackblitz-2.png" alt="Editor de Stackblitz">
+</div>
 
 [> Próximo artículo: ¿Qué son los componentes?](/blog/workshop-components)
 

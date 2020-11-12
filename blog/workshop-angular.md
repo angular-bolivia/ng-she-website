@@ -13,9 +13,12 @@ slug: workshop-angular
 
 ***
 
-![Logo de Angular](/assets/img/angular.png "Logo de Angular")
-
-<div align="center">Logo de angular</div>
+<div align="center">
+  <img src="/assets/img/angular.png" alt="Logo de Angular" style="width: 250px;">
+  <p>
+    Logo de angular
+  </p>
+</div>
 
 ***
 
