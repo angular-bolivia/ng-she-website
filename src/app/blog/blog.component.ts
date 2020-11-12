@@ -2,8 +2,6 @@ import { Component, OnInit } from '@angular/core';
 
 import { MetaTagsUpdaterService } from '../core/services/meta-tags-updater.service';
 
-declare var ng: any;
-
 @Component({
   selector: 'ngs-blog',
   templateUrl: './blog.component.html',
@@ -11,6 +9,13 @@ declare var ng: any;
 })
 export class BlogComponent implements OnInit {
   articles = [
+    {
+      title: 'Tutorial ng|she',
+      description: `Primero que nada, nos alegra mucho tenerte aquí, nuestra misión es ayudarte a que te sientas cómoda todo el tiempo. Si
+        en algún momento necesitas ayuda no dudes en buscarnos, estamos aquí para ti.`,
+      date: '11 de Noviembre, 2020',
+      link: '/blog/workshop-welcome',
+    },
     {
       title: 'Código de conducta',
       description: `ng|she tiene como objetivo engrandecer la comunidad de Angular, llevando a más

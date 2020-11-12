@@ -2,7 +2,7 @@
 title: Código de conducta
 author: Angular Bolivia
 publish date: 2020-11-07
-description: Código de conducta para el evento online ng|she
+description: Código de conducta para el evento online ng|she.
 published: true
 slug: code-of-conduct
 ---

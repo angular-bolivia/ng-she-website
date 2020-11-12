@@ -10,6 +10,11 @@ import { ArticleCardModule } from '../shared/article-card/article-card.module';
 
 @NgModule({
   declarations: [BlogComponent, ArticleComponent],
-  imports: [CommonModule, BlogRoutingModule, ScullyLibModule, ArticleCardModule],
+  imports: [
+    CommonModule,
+    ScullyLibModule,
+    BlogRoutingModule,
+    ArticleCardModule,
+  ],
 })
 export class BlogModule {}

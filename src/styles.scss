@@ -13,6 +13,14 @@ a {
   cursor: pointer !important;
 }
 
+b, strong {
+  font-weight: 700 !important;
+}
+
+h1, h2, h3 {
+  word-break: break-word;
+}
+
 .page-header {
   min-height: 450px !important;
 }

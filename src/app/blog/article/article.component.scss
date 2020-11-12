@@ -1,5 +1,18 @@
 @import '~markdown-splendor/css/splendor.css';
 
+h1 {
+  font-size: 3.5rem !important;
+}
+
 p {
   color: hsla(0, 0%, 100%, 0.8) !important;
+}
+
+pre {
+  background: none !important;
+  overflow-x: auto !important;
+
+  code {
+    border-radius: 5px;
+  }
 }
