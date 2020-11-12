@@ -1,7 +1,11 @@
+import { isPlatformBrowser } from '@angular/common';
 import {
   AfterViewChecked,
   Component,
+  ElementRef,
+  Inject,
   OnInit,
+  PLATFORM_ID,
   ViewEncapsulation,
 } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
@@ -29,6 +33,8 @@ export class ArticleComponent implements OnInit, AfterViewChecked {
 
   constructor(
     private router: Router,
+    private element: ElementRef,
+    @Inject(PLATFORM_ID) private platformId: object,
     private scully: ScullyRoutesService,
     private metaUpdater: MetaTagsUpdaterService
   ) {}
@@ -49,11 +55,14 @@ export class ArticleComponent implements OnInit, AfterViewChecked {
   }
 
   ngAfterViewChecked(): void {
-    if (this.enableCheck) {
-      const elements = document.querySelectorAll('pre code');
+    if (isPlatformBrowser(this.platformId) && this.enableCheck) {
+      const blocks = this.element.nativeElement.querySelectorAll('pre code');
 
-      if (elements.length) {
-        elements.forEach((block) => hljs.highlightBlock(block));
+      if (blocks.length) {
+        blocks.forEach((block) => {
+          hljs.highlightBlock(block);
+          hljs.lineNumbersBlock(block);
+        });
 
         this.enableCheck = false;
       }

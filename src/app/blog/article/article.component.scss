@@ -1,7 +1,19 @@
 @import '~markdown-splendor/css/splendor.css';
 
 h1 {
-  font-size: 3.5rem !important;
+  font-size: 2.5rem !important;
+}
+
+h2 {
+  font-size: 2rem !important;
+}
+
+h3 {
+  font-size: 1.7rem !important;
+}
+
+img {
+  border-radius: 0 !important;
 }
 
 p {
