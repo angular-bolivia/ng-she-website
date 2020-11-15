@@ -30,6 +30,7 @@ import { LayoutModule } from './layout/layout.module';
 import { MainArticlesComponent } from './home/main-articles/main-articles.component';
 import { ArticleCardModule } from './shared/article-card/article-card.module';
 import { OrganizerModalContentModule } from './shared/organizer-modal-content/organizer-modal-content.module';
+import { PeopleListModule } from './shared/people-list/people-list.module';
 
 @NgModule({
   declarations: [
@@ -64,6 +65,7 @@ import { OrganizerModalContentModule } from './shared/organizer-modal-content/or
     LayoutModule,
     ArticleCardModule,
     OrganizerModalContentModule,
+    PeopleListModule
   ],
   bootstrap: [AppComponent],
 })

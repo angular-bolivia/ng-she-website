@@ -200,7 +200,7 @@ const mentors: Person[] = [
   {
     name: 'Rene Cardozo',
     shortName: 'Rene Cardozo',
-    imageSrc: 'assets/img/mentors/rene-cardozo.png',
+    imageSrc: 'assets/img/mentors/default.png',
     bio: `Rene actualmente trabaja como Fullstack developer principalmente enfocado en tecnologias con Javascript. Participo activamente en las primeras versiones de los meetup de angular y como mentor en ng-girls`,
     socialLinks: [
       {
@@ -212,7 +212,7 @@ const mentors: Person[] = [
   {
     name: 'Andrés Horacio Vasquez Agramont',
     shortName: 'Andrés Vasquez',
-    imageSrc: 'assets/img/mentors/andres-vasquez.png',
+    imageSrc: 'assets/img/mentors/default.png',
     bio: `Desarrollador Mobile con experiencia en apps híbridas y nativas. Parte de la comunidad GDG La Paz. Emprendedor`,
     socialLinks: [],
   },

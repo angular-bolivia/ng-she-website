@@ -1,24 +1,6 @@
-<section class="section section-lg">
-  <div class="space-50"></div>
-  <div class="container text-center">
-    <h3 class="mb-5">Equipo organizador</h3>
-    <div class="row justify-content-center">
-      <div data-aos="fade-up" *ngFor="let organizer of organizers" class="mb-5 col-6 col-sm-4 col-md-3">
-        <div class="mb-3">
-          <a class="text-uppercase font-weight-bold text-info" data-target="#organizerModal"
-            (click)="openOrganizerModal(organizer)">
-            {{ organizer.shortName }}
-          </a>
-        </div>
-        <img class="img-fluid rounded shadow-lg clickable organizer-picture" data-target="#organizerModal"
-          [alt]="organizer.name" [src]="organizer.imageSrc" (click)="openOrganizerModal(organizer)">
-      </div>
-    </div>
-  </div>
-</section>
-
-<div aria-hidden="true" aria-labelledby="organizerModalLabel" bsModal class="modal fade" #organizerModal="bs-modal"
-  id="organizerModal" role="dialog" tabindex="-1">
-  <ngs-organizer-modal-content [organizer]="selectedOrganizer" (closeModal)="organizerModal.hide()">
-  </ngs-organizer-modal-content>
-</div>
+<ngs-people-list
+  title="Equipo organizador"
+  [people]="organizers"
+  md3="{{ true }}"
+  topSpace="{{ true }}"
+></ngs-people-list>

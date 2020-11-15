@@ -1,7 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
-
-import { ModalDirective } from 'ngx-bootstrap/modal';
-import { timer } from 'rxjs';
+import { Component, OnInit} from '@angular/core';
 
 import { Person } from '../core/models/organizer.model';
 import { MetaTagsUpdaterService } from '../core/services/meta-tags-updater.service';
@@ -12,8 +9,6 @@ import { MetaTagsUpdaterService } from '../core/services/meta-tags-updater.servi
   styleUrls: ['./team.component.scss'],
 })
 export class TeamComponent implements OnInit {
-  @ViewChild('organizerModal') organizerModal: ModalDirective;
-  selectedOrganizer: Person;
   organizers: Person[] = [
     {
       name: 'Maria Griselda Garcia Flores',
@@ -202,11 +197,5 @@ export class TeamComponent implements OnInit {
       'Equipo organizador',
       'Conoce al equipo detrás de ng|she.'
     );
-  }
-
-  openOrganizerModal(organizer: Person): void {
-    this.selectedOrganizer = organizer;
-
-    timer(0).subscribe(() => this.organizerModal.show());
   }
 }
