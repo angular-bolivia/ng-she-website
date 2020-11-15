@@ -1,35 +1,46 @@
 <section class="section section-lg">
-  <img class="path" src="assets/img/path4.png" alt="fondo en forma de burbuja">
-  <div class="container">
-    <div class="row row-grid justify-content-between">
-      <div class="col-md-5 mt-lg-5 order-md-2">
-        <img data-aos="fade-up" src="assets/img/mentors.png" alt="mentor y estudiantes">
-      </div>
-      <div class="col-md-6 vertical-align">
-        <div class="pl-md-5">
-          <h1>
-            ¿Te gusta enseñar?
-          </h1>
-          <h1>
-            Aplica como mentor y forma parte de nuestro taller apoyando y compartiendo tu conocimiento.
-          </h1>
-          <p>
-            Tendrás un gran impacto en la experiencia de las y los participantes. Si puedes ofrecerte como voluntario
-            en el taller y brindar algún apoyo los días anteriores y posteriores, ¡nos encantaría contar contigo! No
-            necesitas ser un experto en Angular, solo tener todas las ganas de enseñar.
-          </p>
-          <p>
-            <b>Fecha límite:</b> 13 de Noviembre, 2020
-          </p>
-          <br>
-          <div class="text-center text-md-left">
-            <a class="btn btn-danger" tabindex="0" href="https://forms.gle/WqzoMBfudAXwy2nCA" target="_blank"
-              rel="noopener noreferrer">
-              <i class="tim-icons icon-pencil"></i> Aplica como mentor
-            </a>
-          </div>
+  <div class="container text-center">
+    <h3 class="mb-5">Conoce a los mentores de ng|she</h3>
+    <div class="row justify-content-center">
+      <div
+        data-aos="fade-up"
+        *ngFor="let person of people"
+        class="mb-5 col-sm-4 col-6"
+      >
+        <div class="mb-3">
+          <a
+            class="text-uppercase font-weight-bold text-info"
+            data-target="#organizerModal"
+            (click)="openPersonModal(person)"
+          >
+            {{ person.shortName }}
+          </a>
         </div>
+        <img
+          class="img-fluid rounded shadow-lg clickable person-picture"
+          data-target="#organizerModal"
+          [alt]="person.name"
+          [src]="person.imageSrc"
+          (click)="openPersonModal(person)"
+        />
       </div>
     </div>
   </div>
 </section>
+
+<div
+  aria-hidden="true"
+  aria-labelledby="organizerModalLabel"
+  bsModal
+  class="modal fade"
+  #organizerModal="bs-modal"
+  id="organizerModal"
+  role="dialog"
+  tabindex="-1"
+>
+  <ngs-organizer-modal-content
+    [organizer]="selectedPerson"
+    (closeModal)="personModal.hide()"
+  >
+  </ngs-organizer-modal-content>
+</div>

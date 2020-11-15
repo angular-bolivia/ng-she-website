@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
-import { Organizer } from '../../core/models/organizer.model';
+import { Person } from '../../core/models/organizer.model';
 
 @Component({
   selector: 'ngs-organizer-modal-content',
@@ -8,7 +8,7 @@ import { Organizer } from '../../core/models/organizer.model';
   styleUrls: ['./organizer-modal-content.component.scss'],
 })
 export class OrganizerModalContentComponent implements OnInit {
-  @Input() organizer: Organizer;
+  @Input() organizer: Person;
   @Output() closeModal = new EventEmitter<void>();
 
   constructor() {}

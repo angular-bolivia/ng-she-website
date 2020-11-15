@@ -3,7 +3,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { ModalDirective } from 'ngx-bootstrap/modal';
 import { timer } from 'rxjs';
 
-import { Organizer } from '../core/models/organizer.model';
+import { Person } from '../core/models/organizer.model';
 import { MetaTagsUpdaterService } from '../core/services/meta-tags-updater.service';
 
 @Component({
@@ -13,8 +13,8 @@ import { MetaTagsUpdaterService } from '../core/services/meta-tags-updater.servi
 })
 export class TeamComponent implements OnInit {
   @ViewChild('organizerModal') organizerModal: ModalDirective;
-  selectedOrganizer: Organizer;
-  organizers: Organizer[] = [
+  selectedOrganizer: Person;
+  organizers: Person[] = [
     {
       name: 'Maria Griselda Garcia Flores',
       shortName: 'Griss Garcia',
@@ -204,7 +204,7 @@ export class TeamComponent implements OnInit {
     );
   }
 
-  openOrganizerModal(organizer: Organizer): void {
+  openOrganizerModal(organizer: Person): void {
     this.selectedOrganizer = organizer;
 
     timer(0).subscribe(() => this.organizerModal.show());

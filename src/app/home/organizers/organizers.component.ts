@@ -3,7 +3,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { ModalDirective } from 'ngx-bootstrap/modal';
 import { timer } from 'rxjs';
 
-import { Organizer } from '../../core/models/organizer.model';
+import { Person } from '../../core/models/organizer.model';
 
 @Component({
   selector: 'ngs-organizers',
@@ -12,8 +12,8 @@ import { Organizer } from '../../core/models/organizer.model';
 })
 export class OrganizersComponent implements OnInit {
   @ViewChild('organizerModal') organizerModal: ModalDirective;
-  selectedOrganizer: Organizer;
-  organizers: Organizer[] = [
+  selectedOrganizer: Person;
+  organizers: Person[] = [
     {
       name: 'Maria Griselda Garcia Flores',
       shortName: 'Griss Garcia',
@@ -83,7 +83,7 @@ export class OrganizersComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  openOrganizerModal(organizer: Organizer): void {
+  openOrganizerModal(organizer: Person): void {
     this.selectedOrganizer = organizer;
 
     timer(0).subscribe(() => this.organizerModal.show());
