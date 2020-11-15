@@ -11,19 +11,18 @@ import mentors from 'src/assets/data/mentors';
   styleUrls: ['./mentors.component.scss'],
 })
 export class MentorsComponent implements OnInit {
-  @ViewChild('organizerModal') personModal: ModalDirective;
-  selectedPerson: Person;
-  people = mentors;
+  @ViewChild('organizerModal') mentorModal: ModalDirective;
+  selectedMentor: Person;
+  mentors = mentors;
 
   constructor() {}
 
   ngOnInit(): void {
-    console.log(this.people);
   }
 
-  openPersonModal(person: Person): void {
-    this.selectedPerson = person;
+  openMentorModal(person: Person): void {
+    this.selectedMentor = person;
 
-    timer(0).subscribe(() => this.personModal.show());
+    timer(0).subscribe(() => this.mentorModal.show());
   }
 }

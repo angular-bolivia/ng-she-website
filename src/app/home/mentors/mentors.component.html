@@ -4,24 +4,24 @@
     <div class="row justify-content-center">
       <div
         data-aos="fade-up"
-        *ngFor="let person of people"
+        *ngFor="let mentor of mentors"
         class="mb-5 col-sm-4 col-6"
       >
         <div class="mb-3">
           <a
             class="text-uppercase font-weight-bold text-info"
             data-target="#organizerModal"
-            (click)="openPersonModal(person)"
+            (click)="openMentorModal(mentor)"
           >
-            {{ person.shortName }}
+            {{ mentor.shortName }}
           </a>
         </div>
         <img
-          class="img-fluid rounded shadow-lg clickable person-picture"
+          class="img-fluid rounded shadow-lg clickable mentor-picture"
           data-target="#organizerModal"
-          [alt]="person.name"
-          [src]="person.imageSrc"
-          (click)="openPersonModal(person)"
+          [alt]="mentor.name"
+          [src]="mentor.imageSrc"
+          (click)="openMentorModal(mentor)"
         />
       </div>
     </div>
@@ -39,8 +39,8 @@
   tabindex="-1"
 >
   <ngs-organizer-modal-content
-    [organizer]="selectedPerson"
-    (closeModal)="personModal.hide()"
+    [organizer]="selectedMentor"
+    (closeModal)="mentorModal.hide()"
   >
   </ngs-organizer-modal-content>
 </div>
