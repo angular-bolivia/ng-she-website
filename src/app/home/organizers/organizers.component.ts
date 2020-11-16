@@ -1,6 +1,6 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
-import organizers from 'src/assets/data/organizers';
+import organizers from '../../../assets/data/organizers';
 
 @Component({
   selector: 'ngs-organizers',
