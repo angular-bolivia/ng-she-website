@@ -10,4 +10,3 @@ export interface Person {
   bio: string;
   socialLinks?: SocialLink[];
 }
-
