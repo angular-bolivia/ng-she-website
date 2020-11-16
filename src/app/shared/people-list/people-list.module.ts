@@ -11,7 +11,7 @@ import { PeopleListComponent } from './people-list.component';
   imports: [
     CommonModule,
     OrganizerModalContentModule,
-    ModalModule
+    ModalModule,
   ],
   exports: [PeopleListComponent]
 })
