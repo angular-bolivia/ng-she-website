@@ -6,8 +6,6 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 import { OrganizerModalContentModule } from '../organizer-modal-content/organizer-modal-content.module';
 import { PeopleListComponent } from './people-list.component';
 
-
-
 @NgModule({
   declarations: [PeopleListComponent],
   imports: [
