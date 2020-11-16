@@ -1,6 +1,6 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
-import mentors from 'src/assets/data/mentors';
+import mentors from '../../../assets/data/mentors';
 
 @Component({
   selector: 'ngs-mentors',
