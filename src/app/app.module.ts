@@ -65,7 +65,7 @@ import { PeopleListModule } from './shared/people-list/people-list.module';
     LayoutModule,
     ArticleCardModule,
     OrganizerModalContentModule,
-    PeopleListModule
+    PeopleListModule,
   ],
   bootstrap: [AppComponent],
 })
