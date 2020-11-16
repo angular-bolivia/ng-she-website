@@ -1,7 +1,7 @@
 import { Component, OnInit} from '@angular/core';
-import organizers from 'src/assets/data/organizers';
 
 import { MetaTagsUpdaterService } from '../core/services/meta-tags-updater.service';
+import organizers from '../../assets/data/organizers';
 
 @Component({
   selector: 'ngs-team',
