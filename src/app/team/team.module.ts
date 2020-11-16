@@ -10,7 +10,7 @@ import { TeamComponent } from './team.component';
   imports: [
     CommonModule,
     TeamRoutingModule,
-    PeopleListModule
+    PeopleListModule,
   ],
 })
 export class TeamModule {}
