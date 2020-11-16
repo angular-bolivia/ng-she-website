@@ -25,7 +25,6 @@ HTML es un código simple que es interpretado por tu navegador web - como Chrome
 
 **HTML** significa **HyperText Markup Language** - en español **Lenguaje de Marcas de HiperTexto**. **HyperText**, hipertexto en español, significa que es un tipo de texto que soporta hipervínculos entre páginas. **Markup** significa que hemos tomado un documento y lo hemos marcado con código para decirle a algo (en este caso, un navegador) cómo interpretar la página. El código HTML está construido con **etiquetas**, cada una comenzando con `<` y terminando con `>`. Estas etiquetas representan **elementos** de marcado.
 
-<!-- TODO: Enable once this article is created -->
-<!-- [> Próximo artículo: ¡Tu primera plantilla!](/blog/workshop-template) -->
+[> Próximo artículo: ¡Tu primera plantilla!](/blog/workshop-template)
 
 [< Artículo anterior: ¿Qué son los componentes?](/blog/workshop-components)
