@@ -7,7 +7,6 @@ import organizers from '../../../assets/data/organizers';
   templateUrl: './organizers.component.html',
   styleUrls: ['./organizers.component.scss'],
 })
-
 export class OrganizersComponent implements OnInit {
   organizers = organizers.filter((organizer) => organizer.featured);
 

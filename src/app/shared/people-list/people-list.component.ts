@@ -11,7 +11,6 @@ import { Person } from '../../core/models/person.model';
   templateUrl: './people-list.component.html',
   styleUrls: ['./people-list.component.scss']
 })
-
 export class PeopleListComponent implements OnInit {
   @Input() title: string;
   @Input() displayFourItemsByRow = false;
