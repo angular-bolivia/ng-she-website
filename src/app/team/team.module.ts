@@ -1,7 +1,7 @@
-import { PeopleListModule } from './../shared/people-list/people-list.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { PeopleListModule } from '../shared/people-list/people-list.module';
 import { TeamRoutingModule } from './team-routing.module';
 import { TeamComponent } from './team.component';
 
