@@ -9,4 +9,5 @@ export interface Person {
   imageSrc: string;
   bio: string;
   socialLinks?: SocialLink[];
+  featured?: boolean;
 }

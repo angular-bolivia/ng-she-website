@@ -9,6 +9,7 @@ const organizers: Person[] = [
         las comunidades: Angular Bolivia, GP4Tech. Women techmaker ambassador, facilitadora #IAmRemarkable. Entusiasta por el
         aprendizaje y la enseñanza. Le gusta ver series, viajar, participar en eventos de tecnología, enseñar programación y
         manejar bicicleta.`,
+      featured: true,
       socialLinks: [
         {
           icon: 'fab fa-twitter',
@@ -32,6 +33,7 @@ const organizers: Person[] = [
       bio: `Frontend Developer en Jalasoft. Trainer en Fundación Jala. Lead en GP4Tech. Co-Organizer en Angular Bolivia. Le gusta
         compartir sus conocimientos como speaker en tech events y a través de su blog. Cuando no está desarrollando, le gusta
         crear y editar videos para su YouTube channel "La Vida de Li" o practicar mountain bike.`,
+      featured: true,
       socialLinks: [
         {
           icon: 'fab fa-twitter',
@@ -53,6 +55,7 @@ const organizers: Person[] = [
       imageSrc: 'assets/img/organizers/gaby.jpg',
       bio: `Una chica extrovertida, amante de las redes sociales y la tecnología, apasionada por el desarrollo web. Disfruta mucho
         enseñar a los demás.`,
+      featured: true,
       socialLinks: [
         {
           icon: 'fab fa-twitter',

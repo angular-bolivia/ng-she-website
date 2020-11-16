@@ -9,7 +9,7 @@ import organizers from '../../../assets/data/organizers';
 })
 
 export class OrganizersComponent implements OnInit {
-  organizers = organizers.slice(0, 3);
+  organizers = organizers.filter((organizer) => organizer.featured);
 
   constructor() {}
 
