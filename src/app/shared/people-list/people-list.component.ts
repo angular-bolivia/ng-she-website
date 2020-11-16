@@ -1,9 +1,10 @@
 import { Component, OnInit, ViewChild, Input } from '@angular/core';
-import { Person } from 'src/app/core/models/organizer.model';
 
 import { ModalDirective } from 'ngx-bootstrap/modal';
 import { timer } from 'rxjs';
-import mentors from 'src/assets/data/mentors';
+
+import mentors from '../../../assets/data/mentors';
+import { Person } from '../../core/models/person.model';
 
 @Component({
   selector: 'ngs-people-list',

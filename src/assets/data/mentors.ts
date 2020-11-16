@@ -1,4 +1,4 @@
-import { Person } from 'src/app/core/models/organizer.model';
+import { Person } from '../../app/core/models/person.model';
 
 const mentors: Person[] = [
   {

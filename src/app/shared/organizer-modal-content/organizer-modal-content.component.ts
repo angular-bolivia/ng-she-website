@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
-import { Person } from '../../core/models/organizer.model';
+import { Person } from '../../core/models/person.model';
 
 @Component({
   selector: 'ngs-organizer-modal-content',
