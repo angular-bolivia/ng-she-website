@@ -11,10 +11,11 @@ import { Person } from '../../core/models/person.model';
   templateUrl: './people-list.component.html',
   styleUrls: ['./people-list.component.scss']
 })
+
 export class PeopleListComponent implements OnInit {
   @Input() title: string;
-  @Input() md3 = false;
-  @Input() topSpace = false;
+  @Input() displayFourItemsByRow = false;
+  @Input() hasTopSpace = false;
   @Input() people: Person[] = [];
 
   @ViewChild('organizerModal') personModal: ModalDirective;
