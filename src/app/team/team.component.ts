@@ -1,4 +1,4 @@
-import { Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 import { MetaTagsUpdaterService } from '../core/services/meta-tags-updater.service';
 import organizers from '../../assets/data/organizers';

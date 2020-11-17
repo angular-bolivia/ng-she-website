@@ -3,16 +3,12 @@ import { CommonModule } from '@angular/common';
 
 import { ModalModule } from 'ngx-bootstrap/modal';
 
-import { OrganizerModalContentModule } from '../organizer-modal-content/organizer-modal-content.module';
 import { PeopleListComponent } from './people-list.component';
+import { OrganizerModalContentModule } from '../organizer-modal-content/organizer-modal-content.module';
 
 @NgModule({
   declarations: [PeopleListComponent],
-  imports: [
-    CommonModule,
-    OrganizerModalContentModule,
-    ModalModule,
-  ],
-  exports: [PeopleListComponent]
+  imports: [CommonModule, OrganizerModalContentModule, ModalModule],
+  exports: [PeopleListComponent],
 })
-export class PeopleListModule { }
+export class PeopleListModule {}
