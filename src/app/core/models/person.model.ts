@@ -3,10 +3,11 @@ interface SocialLink {
   link: string;
 }
 
-export interface Organizer {
+export interface Person {
   name: string;
   shortName: string;
   imageSrc: string;
   bio: string;
   socialLinks?: SocialLink[];
+  featured?: boolean;
 }

@@ -1,28 +1,11 @@
-<section class="section section-lg">
-  <div class="container text-center">
-    <h3 class="mb-5">Conoce a las organizadoras liderando ng|she</h3>
-    <div class="row justify-content-center">
-      <div data-aos="fade-up" *ngFor="let organizer of organizers" class="mb-5 col-sm-4 col-6">
-        <div class="mb-3">
-          <a class="text-uppercase font-weight-bold text-info" data-target="#organizerModal"
-            (click)="openOrganizerModal(organizer)">
-            {{ organizer.shortName }}
-          </a>
-        </div>
-        <img class="img-fluid rounded shadow-lg clickable organizer-picture" data-target="#organizerModal"
-          [alt]="organizer.name" [src]="organizer.imageSrc" (click)="openOrganizerModal(organizer)">
-      </div>
-    </div>
-    <div class="row text-right">
-      <a class="font-weight-bold text-info" routerLink="team">
-        Conoce a todo el equipo <i class="tim-icons icon-minimal-right text-info"></i>
-      </a>
-    </div>
+<ngs-people-list
+  title="Conoce a las organizadoras liderando ng|she"
+  [people]="organizers"
+>
+  <div class="row text-right">
+    <a class="font-weight-bold text-info" routerLink="team">
+      Conoce a todo el equipo
+      <i class="tim-icons icon-minimal-right text-info"></i>
+    </a>
   </div>
-</section>
-
-<div aria-hidden="true" aria-labelledby="organizerModalLabel" bsModal class="modal fade" #organizerModal="bs-modal"
-  id="organizerModal" role="dialog" tabindex="-1">
-  <ngs-organizer-modal-content [organizer]="selectedOrganizer" (closeModal)="organizerModal.hide()">
-  </ngs-organizer-modal-content>
-</div>
+</ngs-people-list>
