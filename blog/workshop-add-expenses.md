@@ -4,7 +4,7 @@ author: Angular Bolivia
 publish date: 2020-11-15
 description: Como habrás notado, Interpolation es bastante fácil. Ahora vamos a crear una función que nos permita guardar nuestros gastos.
 published: true
-slug: workshop-expenses
+slug: workshop-add-expenses
 ---
 
 # Agregando gastos
@@ -51,7 +51,7 @@ El método `push` agregará un nuevo valor dentro de la variable `gastos`.
 Por ahora en este paso solo vamos a crear la variable, así que debes tener este resultado:
 
 <div align="center">
-  <img src="/assets/img/component-3.png" alt="Lista de gastos" style="width: 1000px;">
+  <img src="/assets/img/component-3.png" alt="Lista de gastos" style="width: 1100px;">
 </div>
 
 ## Paso #2
@@ -79,7 +79,7 @@ Acabamos de crear una clase `Gasto` que cuenta con dos propiedades (variables): 
 Deberíamos tener algo así:
 
 <div align="center">
-  <img src="/assets/img/component-4.png" alt="Clase gasto" style="width: 1000px;">
+  <img src="/assets/img/component-4.png" alt="Clase gasto" style="width: 1100px;">
 </div>
 
 Esta clase nos ayudará en los pasos siguientes a la hora de ir instanciando gastos, los cuales serán agregados a nuestra lista de gastos.
@@ -118,9 +118,9 @@ Vamos a ir la plantilla y agregaremos lo siguiente:
 
 ```html
     <div>
-      <label for="cantidad-nombre">Nombre:</label>
+      <label for="nombre-gasto">Nombre:</label>
       <input
-        id="cantidad-nombre"
+        id="nombre-gasto"
         type="text"
         [(ngModel)]="nombreGasto"
         (keyup.enter)="agregarGasto()"
@@ -157,7 +157,7 @@ El cual ejecutará la función `agregarGasto` cuando lo presionemos.
 El resultado:
 
 <div align="center">
-  <img src="/assets/img/template-2.png" alt="Llamar a la función agregarGasto desde la plantilla" style="width: 1000px;">
+  <img src="/assets/img/template-2.png" alt="Llamar a la función agregarGasto desde la plantilla" style="width: 1100px;">
 </div>
 
 ## Paso #5
@@ -171,12 +171,11 @@ Esto lo vamos a solucionar haciendo que una vez que se inserte el nuevo gasto en
     const gasto = new Gasto(this.nombreGasto, this.cantidadGasto);
     this.gastos.push(gasto);
     console.log(this.gastos);
-    this.nombreGasto = '';
+    this.nombreGasto = "";
     this.cantidadGasto = 0;
   }
 ```
 
-<!-- TODO: Enable when this article is created -->
-<!-- [> Próximo artículo: Mostrando los gastos](/blog/workshop-list) -->
+[> Próximo artículo: Mostrando los gastos](/blog/workshop-expenses-list)
 
 [< Artículo anterior: Usando ngModel](/blog/workshop-ngmodel)

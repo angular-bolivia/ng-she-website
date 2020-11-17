@@ -35,8 +35,11 @@ Este tutorial no te convertirá en una programadora de la noche a la mañana, pe
 
 Cuando termines el tutorial, tendrás una aplicación web sencilla y funcional, una app para manejar tus gastos.
 
-<!-- Tendrá (más o menos) esta pinta: -->
-<!-- TODO: Add a picture of the final app -->
+Tendrá (más o menos) esta pinta:
+
+<div align="center">
+  <img src="/assets/img/app-3.png" alt="App final en pantalla completa" style="width: 1100px;">
+</div>
 
 ***
 

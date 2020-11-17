@@ -22,8 +22,8 @@ Copia el siguiente código a tu archivo `app.component.html`:
   <div class="form gasto">
     <h3>Agrega tus gastos aquí</h3>
     <div>
-      <label for="cantidad-nombre">Nombre:</label>
-      <input id="cantidad-nombre" type="text" />
+      <label for="nombre-gasto">Nombre:</label>
+      <input id="nombre-gasto" type="text" />
     </div>
     <div>
       <label for="cantidad-gasto">Cantidad:</label>
@@ -36,7 +36,7 @@ Copia el siguiente código a tu archivo `app.component.html`:
 El resultado que deberás obtener:
 
 <div align="center">
-  <img src="/assets/img/template-1.png" alt="Primera parte de la plantilla" style="width: 1000px;">
+  <img src="/assets/img/template-1.png" alt="Primera parte de la plantilla" style="width: 1100px;">
 </div>
 
 [> Próximo artículo: Usando ngModel](/blog/workshop-ngmodel)

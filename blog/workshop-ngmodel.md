@@ -18,7 +18,7 @@ slug: workshop-ngmodel
 Para saber cuando un usuario ingresa un gasto, primero debemos tener un par de variables que guarden el nombre y la cantidad del gasto al escribir estos valores en los campos de texto y numérico, para esto, abriremos el archivo `app.component.ts` y crearemos un par de variables llamadas `nombreGasto` y `cantidadGasto`. En estas guardaremos los valores correspondientes.
 
 <div align="center">
-  <img src="/assets/img/component-1.png" alt="Variables para el gasto" style="width: 1000px;">
+  <img src="/assets/img/component-1.png" alt="Variables para el gasto" style="width: 1100px;">
 </div>
 
 ## Paso #2
@@ -29,7 +29,7 @@ Agregar `[(ngModel)]="nombreGasto"` y `[(ngModel)]="cantidadGasto"` dentro de la
 
 ```html
       <input
-        id="cantidad-nombre"
+        id="nombre-gasto"
         type="text"
         [(ngModel)]="nombreGasto"
       />
@@ -56,9 +56,9 @@ Para comprobar esto, vamos a mostrar el valor actual de las variables `nombreGas
   <div class="form gasto">
     <h3>Agrega tus gastos aquí</h3>
     <div>
-      <label for="cantidad-nombre">Nombre:</label>
+      <label for="nombre-gasto">Nombre:</label>
       <input
-        id="cantidad-nombre"
+        id="nombre-gasto"
         type="text"
         [(ngModel)]="nombreGasto"
       />
@@ -82,9 +82,9 @@ Estas formas: `{{nombreGasto}}` y `{{cantidadGasto}}` son la manera en que Angul
 El resultado:
 
 <div align="center">
-  <img src="/assets/img/component-2.png" alt="Interpolation aplicado" style="width: 1000px;">
+  <img src="/assets/img/component-2.png" alt="Interpolation aplicado" style="width: 1100px;">
 </div>
 
-[> Próximo artículo: Agregando gastos](/blog/workshop-expenses)
+[> Próximo artículo: Agregando gastos](/blog/workshop-add-expenses)
 
 [< Artículo anterior: ¡Tu primera plantilla!](/blog/workshop-template)

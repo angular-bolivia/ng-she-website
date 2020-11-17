@@ -26,7 +26,7 @@ Entra a <a href="https://stackblitz.com" target="_blank" rel="noopener noreferre
 Una vez que el proyecto esté creado, verás algo como esto:
 
 <div align="center">
-  <img src="/assets/img/stackblitz-1.png" alt="Estructura de Stackblitz" style="width: 1000px;">
+  <img src="/assets/img/stackblitz-1.png" alt="Estructura de Stackblitz" style="width: 1100px;">
 </div>
 
 ## Paso #3
@@ -38,7 +38,7 @@ Dentro de la carpeta `app` vamos a buscar el archivo `app.component.html`, este 
 Reemplaza: `Start editing to see some magic happen :)`, por `Hola mundo`.
 
 <div align="center">
-  <img src="/assets/img/stackblitz-2.png" alt="Editor de Stackblitz" style="width: 1000px;">
+  <img src="/assets/img/stackblitz-2.png" alt="Editor de Stackblitz" style="width: 1100px;">
 </div>
 
 [> Próximo artículo: ¿Qué son los componentes?](/blog/workshop-components)
