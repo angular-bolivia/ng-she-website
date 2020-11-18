@@ -77,7 +77,7 @@ const mentors: Person[] = [
   },
   {
     name: 'Joshua Oliver Zulett Pareja',
-    shortName: 'Joshua Zulett',
+    shortName: 'Oliver Zulett',
     imageSrc: 'assets/img/mentors/joshua-zulett.png',
     bio: `Desarrollador de software con experiencia en desarrollo de aplicaciones multiplataforma con Angular y desarrollo de Restful services con Nodejs y Nestjs.`,
     socialLinks: [
@@ -187,7 +187,7 @@ const mentors: Person[] = [
   },
   {
     name: 'Vladimir Duglas Apaza Acha',
-    shortName: 'Vladimir Apaza',
+    shortName: 'Duglas Apaza',
     imageSrc: 'assets/img/mentors/vladimir-apaza.png',
     bio: `Duglas es alguien muy interactivo y paciente, siempre trata de animar el ambiente y transmitir sus conocimientos con mucha pasión, trata de ver todos los puntos de vista, y compartir mucho de su experiencia y mostrar las cosas que ha logrado aprender con la tecnología. Actualmente me encuentro activo con la comunidad del @nucleognlinux`,
     socialLinks: [
@@ -200,7 +200,7 @@ const mentors: Person[] = [
   {
     name: 'Rene Cardozo',
     shortName: 'Rene Cardozo',
-    imageSrc: 'assets/img/mentors/default.png',
+    imageSrc: 'assets/img/mentors/rene-cardozo.png',
     bio: `Rene actualmente trabaja como Fullstack developer principalmente enfocado en tecnologías con Javascript. Participó activamente en las primeras versiones de los meetup de angular y como mentor en ng-girls.`,
     socialLinks: [
       {
@@ -212,9 +212,21 @@ const mentors: Person[] = [
   {
     name: 'Andrés Horacio Vasquez Agramont',
     shortName: 'Andrés Vasquez',
-    imageSrc: 'assets/img/mentors/default.png',
+    imageSrc: 'assets/img/mentors/andres-vasquez.jpg',
     bio: `Desarrollador Mobile con experiencia en apps híbridas y nativas. Parte de la comunidad GDG La Paz. Emprendedor.`,
     socialLinks: [],
+  },
+  {
+    name: 'Adrian Zelada',
+    shortName: 'Adrian Zelada',
+    imageSrc: 'assets/img/mentors/adrian-zelada.jpg',
+    bio: `Adrian es Desarrollador Web, apasionado en las nuevas tecnologías. Es co-founder de la comunidad La Paz Js y le gusta escribir algunos Posts en Medium, compartiendo su conocimiento con las demás personas.`,
+    socialLinks: [
+      {
+        icon: 'fab fa-twitter',
+        link: 'https://twitter.com/AdrZelada',
+      },
+    ],
   },
 ];
 

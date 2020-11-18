@@ -12,7 +12,7 @@ import mentors from '../../../assets/data/mentors';
   styleUrls: ['./people-list.component.scss'],
 })
 export class PeopleListComponent implements OnInit {
-  @Input() title: string;
+  @Input() sectionTitle: string;
   @Input() displayFourItemsByRow = false;
   @Input() hasTopSpace = false;
   @Input() people: Person[] = [];
