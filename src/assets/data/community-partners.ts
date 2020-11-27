@@ -39,7 +39,7 @@ const communityPartners: Person[] = [
   },
   {
     name: 'Sociedad Científica de Estudiantes',
-    shortName: 'Scesi',
+    shortName: 'SCESI',
     imageSrc: 'assets/img/communities/scesi.png',
     bio: `SCESI, es una sociedad que la componen estudiantes, que tienen como objetivo el realizar investigación en todo lo relacionado a las ciencias de la computación y ademas a la difusión del software libre.`,
     socialLinks: [
