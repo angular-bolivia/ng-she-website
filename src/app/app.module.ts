@@ -31,6 +31,7 @@ import { MainArticlesComponent } from './home/main-articles/main-articles.compon
 import { ArticleCardModule } from './shared/article-card/article-card.module';
 import { OrganizerModalContentModule } from './shared/organizer-modal-content/organizer-modal-content.module';
 import { PeopleListModule } from './shared/people-list/people-list.module';
+import { CommunityPartnersComponent } from './home/community-partners/community-partners.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { PeopleListModule } from './shared/people-list/people-list.module';
     AboutUsComponent,
     ParticipantsComponent,
     MainArticlesComponent,
+    CommunityPartnersComponent,
   ],
   imports: [
     BrowserModule,
