@@ -1,0 +1,30 @@
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header justify-content-center">
+      <button aria-hidden="true" class="close" data-dismiss="modal" type="button" (click)="closeModal.emit()">
+        <i class="tim-icons icon-simple-remove"></i>
+      </button>
+      <h4 class="title title-up">{{ organizer?.name }}</h4>
+    </div>
+    <div class="modal-body">
+      <div class="mb-3 text-center">
+        <img alt="foto de Griss Garcia" class="p-0 img-fluid rounded shadow organizer-picture"
+          [src]="organizer?.imageSrc">
+      </div>
+      <p>
+        {{ organizer?.bio }}
+      </p>
+    </div>
+    <ng-container *ngIf="organizer?.socialLinks && organizer?.socialLinks.length">
+      <div class="modal-footer">
+        <div></div>
+        <div class="btn-wrapper profile">
+          <a *ngFor="let socialLink of organizer.socialLinks" class="btn btn-icon btn-round btn-simple mr-1"
+            [href]="socialLink.link" target="_blank" rel="noopener noreferrer">
+            <i [class]="socialLink.icon"></i>
+          </a>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

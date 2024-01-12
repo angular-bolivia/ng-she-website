@@ -1,0 +1,14 @@
+.card-img {
+  object-fit: cover;
+  opacity: 0.3;
+}
+
+.card-img-overlay {
+  overflow: hidden;
+}
+
+.card-description {
+  overflow: hidden;
+  line-height: 1.5em;
+  max-height: 4.5em;
+}

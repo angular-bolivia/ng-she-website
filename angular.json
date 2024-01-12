@@ -25,12 +25,20 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/robots.txt",
+              "src/sitemap.xml"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/css/nucleo-icons.css",
+              "src/assets/scss/blk-design-system.scss",
+              "src/assets/demo/demo.css",
+              "node_modules/aos/dist/aos.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/highlightjs-badge/highlightjs-badge.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,12 +97,20 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/robots.txt",
+              "src/sitemap.xml"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/css/nucleo-icons.css",
+              "src/assets/scss/blk-design-system.scss",
+              "src/assets/demo/demo.css",
+              "node_modules/aos/dist/aos.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/highlightjs-badge/highlightjs-badge.min.js"
+            ]
           }
         },
         "lint": {
@@ -105,9 +121,7 @@
               "tsconfig.spec.json",
               "e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
@@ -123,6 +137,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-she-website"
+    }
+  },
+  "defaultProject": "ng-she-website",
+  "cli": {
+    "analytics": "da7e4dbd-03fb-43ed-9410-ec2489ae35ae"
+  }
 }

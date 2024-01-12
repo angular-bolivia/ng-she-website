@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="100" id="navbar-top">
+  <div class="container">
+    <div class="navbar-translate">
+      <a class="navbar-brand" placement="bottom" routerLink="/" tooltip="ng|she es una iniciativa de Angular Bolivia">
+        ng <span> | </span> she
+      </a>
+      <button aria-controls="navigation-index" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler"
+        [attr.aria-expanded]="!isCollapsed" (click)="isCollapsed = !isCollapsed" id="navigation" type="button">
+        <span class="navbar-toggler-bar bar1"></span>
+        <span class="navbar-toggler-bar bar2"></span>
+        <span class="navbar-toggler-bar bar3"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse justify-content-end" [collapse]="isCollapsed" id="navigation">
+      <div class="navbar-collapse-header">
+        <div class="row">
+          <div class="col-6 collapse-brand"><a routerLink="/"> ng|she </a></div>
+          <div class="col-6 collapse-close text-right">
+            <button aria-controls="navigation-index" aria-label="Toggle navigation" class="navbar-toggler"
+              [attr.aria-expanded]="!isCollapsed" (click)="isCollapsed = !isCollapsed" id="navigation" type="button">
+              <i class="tim-icons icon-simple-remove"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" (click)="isCollapsed = true">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/blog" (click)="isCollapsed = true">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/team" (click)="isCollapsed = true">Equipo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-default mt-2 mt-lg-0 px-2" href="https://forms.gle/Mzhe8qNSCPv98Krz8"
+            target="_blank" rel="noopener noreferrer" (click)="isCollapsed = true">
+            <i class="tim-icons icon-pencil"></i> Regístrate
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

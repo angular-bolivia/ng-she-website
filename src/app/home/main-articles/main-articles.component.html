@@ -1,0 +1,18 @@
+<section class="section section-lg">
+  <div class="space-50"></div>
+  <div class="container text-center">
+    <h3 class="mb-5">Artículos importantes</h3>
+    <div class="row justify-content-center">
+      <div data-aos="fade-up" *ngFor="let article of articles" class="col-md-6 col-lg-4">
+        <ngs-article-card [title]="article.title" [description]="article.description" [date]="article.date"
+          [link]="article.link">
+        </ngs-article-card>
+      </div>
+    </div>
+    <div class="row text-right">
+      <a class="font-weight-bold text-info" routerLink="blog">
+        Ver todos <i class="tim-icons icon-minimal-right text-info"></i>
+      </a>
+    </div>
+  </div>
+</section>
