@@ -228,6 +228,18 @@ const mentors: Person[] = [
       },
     ],
   },
+  {
+    name: 'Mauricio Arce Torrez',
+    shortName: 'Mauricio Arce',
+    imageSrc: 'assets/img/mentors/mauri.jpg',
+    bio: `Mauricio es un apasionado del desarrollo web y de participar en comunidades. Graduado de la Universidad Mayor de San Simón de la carrera de Ingeniería de Sistemas y con un diplomado en Gestión de Proyectos de Tecnologías de Información, actualmente trabaja como desarrollador de software en Jalasoft. Es parte del equipo organizador del Startup Weekend Cochabamba por más de 3 años y Tech Lead del mismo en la última versión y en la que se viene organizando este año, estando a la cabeza del desarrollo de las aplicaciones web usadas para la organización de este evento. Miembro del Core Team de la comunidad Angular Bolivia, speaker en la comunidad y parte del Web Team del equipo organizador del NG Bolivia (la conferencia de Angular más grande en Bolivia). Miembro activo de la comunidad GP4Tech, donde aparte de ser parte del equipo de desarrollo, ayuda a chicas y chicos de colegio con temas relacionados a desarrollo a través de charlas y talleres.`,
+    socialLinks: [
+      {
+        icon: 'fab fa-twitter',
+        link: 'https://twitter.com/combimauri',
+      },
+    ],
+  },
 ];
 
 export default mentors;
