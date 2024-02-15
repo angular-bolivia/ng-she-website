@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "ng-she"
+  },
+  "targets": {
+    "ng-she": {
+      "hosting": {
+        "first-version": [
+          "ngshe-2020"
+        ],
+        "second-version": [
+          "ng-she"
+        ]
+      }
+    }
   }
 }
