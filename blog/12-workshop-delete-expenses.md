@@ -4,7 +4,7 @@ author: Angular Bolivia
 publish date: 2020-11-28
 description: ¿Llegaste muy rápido hasta aquí? Si aún queda tiempo para que termine el taller, podemos ver cómo eliminar gastos de nuestra lista.
 published: true
-slug: workshop-delete-expenses
+slug: 12-workshop-delete-expenses
 ---
 
 # Eliminando gastos
@@ -15,7 +15,7 @@ slug: workshop-delete-expenses
 
 ## Paso #1
 
-En `app.component.ts` vamos a crear una nueva función llamada `eliminarGasto` que recibirá el índice del gasto a eliminar y la cantidad del gasto:
+En el archivo `main.ts` vamos a crear una nueva función llamada `eliminarGasto` que recibirá el índice del gasto a eliminar y la cantidad del gasto:
 
 ```typescript
   eliminarGasto(indiceGasto: number, cantidadGasto: number): void {
@@ -75,6 +75,6 @@ Y nuestra app se verá así:
   <img src="/assets/img/template-7.png" alt="Eliminar gastos" style="width: 1100px;">
 </div>
 
-[> Próximo artículo: ¡Comparte tu app!](/blog/workshop-share)
+[> Próximo artículo: ¡Comparte tu app!](/blog/13-workshop-share)
 
-[< Artículo anterior: ¡Que quede bonito!](/blog/workshop-css)
+[< Artículo anterior: ¡Que quede bonito!](/blog/11-workshop-css)
