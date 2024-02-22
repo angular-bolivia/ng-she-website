@@ -21,38 +21,6 @@ const communityPartners: Person[] = [
       },
     ],
   },
-    {
-    name: 'Pyladies Cochabamba',
-    shortName: 'Pyladies Cbba',
-    imageSrc: 'assets/img/communities/pyladies.png',
-    bio: `Comunidad dedicada a motivar el aprendizaje continuo de Python y todas sus áreas.`,
-    socialLinks: [
-      {
-        icon: 'fab fa-facebook-f',
-        link: 'https://www.facebook.com/PyladiesCbba',
-      },
-      {
-        icon: 'fab fa-youtube',
-        link: 'https://www.youtube.com/channel/UCBswMR-90vqUl4grmDXnu8Q',
-      },
-    ],
-  },
-  {
-    name: 'Sociedad Científica de Estudiantes',
-    shortName: 'SCESI',
-    imageSrc: 'assets/img/communities/scesi.png',
-    bio: `SCESI, es una sociedad que la componen estudiantes, que tienen como objetivo el realizar investigación en todo lo relacionado a las ciencias de la computación y ademas a la difusión del software libre.`,
-    socialLinks: [
-      {
-        icon: 'fab fa-facebook-f',
-        link: 'https://www.facebook.com/scesi/',
-      },
-      {
-        icon: 'fas fa-globe',
-        link: 'http://www.scesi.org/',
-      },
-    ],
-  },
 ];
 
 export default communityPartners;
