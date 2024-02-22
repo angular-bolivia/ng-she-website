@@ -4,7 +4,7 @@ author: Angular Bolivia
 publish date: 2020-11-28
 description: Felicidades, acabas de dar un gran paso para convertirte en Angular Developer. ¡Estamos orgullosos!
 published: true
-slug: workshop-congratulations
+slug: 14-workshop-congratulations
 ---
 
 # ¿Y ahora qué?
@@ -33,4 +33,4 @@ Después de eso, asegúrate de seguir nuestra página **Angular Bolivia** en <a 
 - <a href="https://codecraft.tv/courses/angular/" target="_blank" rel="noopener noreferrer">Angular - Codecraft</a>
 - <a href="https://www.youtube.com/c/nicobytes/" target="_blank" rel="noopener noreferrer">Videos de Angular - Nicobytes</a>
 
-[< Artículo anterior: ¡Comparte tu app!](/blog/workshop-share)
+[< Artículo anterior: ¡Comparte tu app!](/blog/13-workshop-share)

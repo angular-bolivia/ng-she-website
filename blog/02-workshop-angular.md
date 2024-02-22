@@ -4,17 +4,17 @@ author: Angular Bolivia
 publish date: 2020-11-11
 description: Angular es un framework que nos ayuda a desarrollar sitios web de manera fácil y rápida.
 published: true
-slug: workshop-angular
+slug: 02-workshop-angular
 ---
 
 # ¿Qué es Angular?
 
-> Angular es un framework que nos ayuda a desarrollar sitios web de manera fácil y rápida.
+> Angular es un framework de código abierto desarrollado por Google para desarrollar aplicaciones web robustas y escalables.
 
 ***
 
 <div align="center">
-  <img src="/assets/img/angular.png" alt="Logo de Angular" style="width: 250px;">
+  <img src="/assets/img/angular-logo.png" alt="Logo de Angular" style="width: 250px;">
   <p>
     Logo de angular
   </p>
@@ -42,6 +42,6 @@ Esta descripción es un poco simplista, pero de momento no necesitas saber todos
 
 Así que, en lugar de detenernos demasiado en los detalles, vamos a empezar a crear algo con Angular y ¡así aprenderemos las cosas importantes sobre la marcha!
 
-[> Próximo artículo: Stackblitz](/blog/workshop-stackblitz)
+[> Próximo artículo: Stackblitz](/blog/03-workshop-stackblitz)
 
-[< Artículo anterior: ¡Bienvenida a ng|she!](/blog/workshop-welcome)
+[< Artículo anterior: ¡Bienvenida a ng|she!](/blog/01-workshop-welcome)

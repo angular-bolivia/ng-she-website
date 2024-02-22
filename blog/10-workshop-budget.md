@@ -4,7 +4,7 @@ author: Angular Bolivia
 publish date: 2020-11-16
 description: Para controlar nuestros gastos es importante saber cuál es nuestro presupuesto y cuál sería nuestro saldo.
 published: true
-slug: workshop-budget
+slug: 10-workshop-budget
 ---
 
 # Agregando presupuesto y saldo
@@ -15,7 +15,7 @@ slug: workshop-budget
 
 ## Paso #1
 
-Vamos a aplicar los conocimientos que ya hemos adquirido. Inicialmente, en el archivo `app.component.ts` agregaremos variables para nuestro `presupuesto` y nuestro `saldo`:
+Vamos a aplicar los conocimientos que ya hemos adquirido. Inicialmente, en el archivo `app.ts` agregaremos variables para nuestro `presupuesto` y nuestro `saldo`:
 
 ```typescript
   presupuesto = 0;
@@ -178,6 +178,23 @@ Lo que podemos hacer es crear una variable que por defecto tenga un valor **fals
 ```html
     <div class="restante" *ngIf="saldoInicialIngresado">
 ```
+Luego de usar la directiva `NgIf` en la plantilla, podrias tener un error como el que sigue(visible en la terminal).
+
+```text
+[WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported
+```
+
+Al igual que que la directiva `NgFor`, antes de usar la directiva `NgIf`, es necesario importarla como parte de el componente. Actualiza las siguientes lineas de codigo en el archivo `main.ts`:
+
+```ts
+import { NgFor, NgIf } from '@angular/common';
+
+@Component({
+  ...
+  imports: [FormsModule, NgFor, NgIf],
+  ...
+})
+```
 
 Así se verá nuestra app antes de ingresar nuestro saldo inicial:
 
@@ -296,22 +313,13 @@ Hasta el momento nuestra plantilla debería tener la siguiente estructura HTML:
 </div>
 ```
 
-Y nuestro componente debería tener el siguiente código:
+Y nuestro código TypeScript en la clase `App` debería ser el siguiente:
 
 ```typescript
-import { Component } from "@angular/core";
-
-import { Gasto } from "./gasto";
-
-@Component({
-  selector: "my-app",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"]
-})
-export class AppComponent {
+export class App {
   nombreGasto = "";
-  cantidadGasto = 0;
-  gastos = [];
+  cantidadGasto = 10;
+  gastos: Gasto[] = [];
   presupuesto = 0;
   saldo = 0;
   saldoInicialIngresado = false;
@@ -331,6 +339,6 @@ export class AppComponent {
 }
 ```
 
-[> Próximo artículo: CSS - ¡Que quede bonito!](/blog/workshop-css)
+[> Próximo artículo: CSS - ¡Que quede bonito!](/blog/11-workshop-css)
 
-[< Artículo anterior: Mostrando los gastos](/blog/workshop-expenses-list)
+[< Artículo anterior: Mostrando los gastos](/blog/09-workshop-expenses-list)

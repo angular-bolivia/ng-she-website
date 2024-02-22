@@ -4,7 +4,7 @@ author: Angular Bolivia
 publish date: 2020-11-16
 description: Nuestra aplicación para manejo de gastos todavía es un poco fea, ¿no te parece? ¡Es hora de ponerla bonita! Para eso, vamos a usar CSS.
 published: true
-slug: workshop-css
+slug: 11-workshop-css
 ---
 
 # CSS - ¡Que quede bonito!
@@ -17,13 +17,13 @@ El lenguaje CSS (las siglas en inglés de hojas de estilos en cascada, o Cascadi
 
 ## Paso #1
 
-En los archivos que conforman la aplicación existe un archivo llamado `styles.css` en este archivo es donde vamos a trabajar todos nuestros estilos.
+En los archivos que conforman la aplicación existe un archivo llamado `global_styles.css`, que es donde vamos a trabajar todos nuestros estilos.
 
 <div align="center">
-  <img src="/assets/img/project-structure.png" alt="Estructura del proyecto" style="width: 400px;">
+  <img src="/assets/img/project-structure.png" alt="Estructura del proyecto" style="width: 1000px;">
 </div>
 
-En ese archivo podemos ajustar cualquier cosa respecto al aspecto visual de la aplicación. Un ejemplo, si agregas este código dentro del archivo `styles.css`:
+En ese archivo podemos ajustar cualquier cosa respecto al aspecto visual de la aplicación. Un ejemplo, si agregas este código dentro del archivo `global_styles.css`:
 
 ```css
 body {
@@ -41,7 +41,7 @@ El resultado es:
 
 Vamos a usar una hoja de estilos que ya está preparada para que funcione muy bien dentro de la aplicación.
 
-Tenemos 2 opciones, abre cualquier de las 2, copia todo el contenido y reemplaza lo que tengas en `styles.css` con lo que acabas de copiar:
+Tenemos 2 opciones, abre cualquier de las 2, copia todo el contenido y reemplaza lo que tengas en `global_styles.css` con lo que acabas de copiar:
 
 - <a href="https://raw.githubusercontent.com/angular-bolivia/ng-she-workshop/develop/src/styles.css" target="_blank" rel="noopener noreferrer">Opción de estilos #1</a>
 - <a href="https://raw.githubusercontent.com/angular-bolivia/ng-she-workshop/develop/src/styles-v2.css" target="_blank" rel="noopener noreferrer">Opción de estilos #2</a>
@@ -54,11 +54,13 @@ El resultado será el siguiente si escoges la Opción #1:
 
 ## Paso #3
 
-Ahora vamos a verlo en pantalla completa haciendo click en el botón **Open in New Window**.
+Ahora vamos a verlo en pantalla completa haciendo click en el botón **Open Preview in new Tab**(ubicado en la esquina superior derecha de Stackblitz).
 
 <div align="center">
   <img src="/assets/img/app-2.png" alt="App final después de ingresar presupuesto" style="width: 1100px;">
 </div>
+
+En caso de mostrarse una ventana con el mensaje "Additional step required", asegúrate de hacer click en el botón "Connect to Project" para continuar.
 
 El resultado de la Opción #1:
 
@@ -72,6 +74,6 @@ El resultado de la Opción #2:
   <img src="/assets/img/app-4.png" alt="App final en pantalla completa" style="width: 1100px;">
 </div>
 
-[> Próximo artículo: Eliminando gastos](/blog/workshop-delete-expenses)
+[> Próximo artículo: Eliminando gastos](/blog/12-workshop-delete-expenses)
 
-[< Artículo anterior: Agregando presupuesto y saldo](/blog/workshop-budget)
+[< Artículo anterior: Agregando presupuesto y saldo](/blog/10-workshop-budget)

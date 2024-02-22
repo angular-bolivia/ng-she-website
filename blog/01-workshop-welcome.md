@@ -1,10 +1,10 @@
 ---
-title: Tutorial - Bienvenida
-author: Angular Bolivia
-publish date: 2020-11-11
-description: Primero que nada, nos alegra mucho tenerte aquí, nuestra misión es ayudarte a que te sientas cómod@ todo el tiempo. Si en algún momento necesitas ayuda no dudes en buscarnos, estamos aquí para ti.
+title: 'Tutorial - Bienvenida'
+author: 'Angular Bolivia'
+'publish date': 2024-02-21T00:00:00.000Z
+description: 'Primero que nada, nos alegra mucho tenerte aquí, nuestra misión es ayudarte a que te sientas cómod@ todo el tiempo. Si en algún momento necesitas ayuda no dudes en buscarnos, estamos aquí para ti.'
 published: true
-slug: workshop-welcome
+slug: 01-workshop-welcome
 ---
 
 # ¡Bienvenida a ng|she!
@@ -56,4 +56,4 @@ Tú podrás decidir qué estilos prefieres al final :D
 - Tienes a tu disposición a todos los mentores, siéntete en la libertad de llamarlos constantemente para que te ayuden con cualquier duda que tengas.
 - Seguro eres de l@s más list@s del grupo, si ese es el caso y terminas el desafío muy pronto, no te apresures a empezar el siguiente, podrás ser el/la guía para ayudar a tus compañer@s a terminarlo.
 
-[> Próximo artículo: ¿Qué es Angular?](/blog/workshop-angular)
+[> Próximo artículo: ¿Qué es Angular?](/blog/02-workshop-angular)

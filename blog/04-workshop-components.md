@@ -4,7 +4,7 @@ author: Angular Bolivia
 publish date: 2020-11-11
 description: Los componentes son los bloques básicos de construcción de las páginas web en Angular. Contienen una parte visual en html (la vista) y una funcional en Typescript.
 published: true
-slug: workshop-components
+slug: 04-workshop-components
 ---
 
 # ¿Qué son los componentes?
@@ -29,15 +29,16 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  standalone: true,
+  template: `
+    <h1>Hola mundo!</h1>
+  `,
 })
-
-export class AppComponent {
-  title = 'app';
+export class App {
+  name = 'Angular';
 }
 ```
 
-[> Próximo artículo: Introducción a HTML](/blog/workshop-html)
+[> Próximo artículo: Introducción a HTML](/blog/05-workshop-html)
 
-[< Artículo anterior: Stackblitz](/blog/workshop-stackblitz)
+[< Artículo anterior: Stackblitz](/blog/03-workshop-stackblitz)

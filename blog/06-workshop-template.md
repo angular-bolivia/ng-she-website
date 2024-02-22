@@ -4,7 +4,7 @@ author: Angular Bolivia
 publish date: 2020-11-15
 description: Ahora vamos a añadir la estructura HTML inicial de nuestra aplicación.
 published: true
-slug: workshop-template
+slug: 06-workshop-template
 ---
 
 # ¡Tu primera plantilla!
@@ -15,7 +15,7 @@ slug: workshop-template
 
 ## Paso #1
 
-Copia el siguiente código a tu archivo `app.component.html`:
+Copia el siguiente código HTML a tu archivo `main.ts`. Este código debe estar en la propiedad `template`:
 
 ```html
 <div class="contenedor-principal">
@@ -39,6 +39,6 @@ El resultado que deberás obtener:
   <img src="/assets/img/template-1.png" alt="Primera parte de la plantilla" style="width: 1100px;">
 </div>
 
-[> Próximo artículo: Usando ngModel](/blog/workshop-ngmodel)
+[> Próximo artículo: Usando ngModel](/blog/07-workshop-ngmodel)
 
-[< Artículo anterior: Introducción a HTML](/blog/workshop-html)
+[< Artículo anterior: Introducción a HTML](/blog/05-workshop-html)

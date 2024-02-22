@@ -4,7 +4,7 @@ author: Angular Bolivia
 publish date: 2020-11-16
 description: En la variable gastos se encuentran todos los gastos guardados que el usuario está creando, ahora llego el punto de mostrarlos en pantalla.
 published: true
-slug: workshop-expenses-list
+slug: 09-workshop-expenses-list
 ---
 
 # Mostrando los gastos
@@ -109,10 +109,29 @@ En nuestro caso para mostrar todas los gastos vamos a modificar el elemento `li`
         </li>
 ```
 
+Si el código no funciona, se debe a que la directiva `NgFor` aún no ha sido importada en el componente. En tal caso debes revisar la salida que se tiene en la terminal.
+
+Asegúrate de importar la directiva usando el siguiente código en la parte superior del archivo `main.ts`:
+
+```ts
+import { NgFor } from '@angular/common';
+```
+
+Posteriormente, debes actualizar el atributo `imports` en la definición del componente:
+
+```ts
+@Component({
+  ...
+  imports: [FormsModule, NgFor],
+  ...
+})
+export class App {
+```
+
 <div align="center">
   <img src="/assets/img/template-4.png" alt="Lista de gastos dinámica inicial" style="width: 1100px;">
 </div>
 
-[> Próximo artículo: Agregando presupuesto y saldo](/blog/workshop-budget)
+[> Próximo artículo: Agregando presupuesto y saldo](/blog/10-workshop-budget)
 
-[< Artículo anterior: Agregando gastos](/blog/workshop-add-expenses)
+[< Artículo anterior: Agregando gastos](/blog/08-workshop-add-expenses)
