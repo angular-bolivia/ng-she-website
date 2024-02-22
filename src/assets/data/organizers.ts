@@ -33,6 +33,27 @@ const organizers: Person[] = [
     ]
   },
   {
+    name: 'Gustavo Pacchi Villarroel',
+    shortName: 'Gustavo Pacchi',
+    imageSrc: 'assets/img/organizers/gustavo-pachi.png',
+    bio: `Gustavo es Product Designer con amplia experiencia en diseño de interfaces, de experiencias de usuario, desarrollo de marcas, diseño gráfico y diseño de animaciones. Entusiasta por la tecnología y los eventos, participa activamente en comunidades ejerciendo como líder, como diseñador y/o editando videos para promocionar eventos. Sus aficiones son trotar, nadar y pasar tiempo con sus perros.`,
+    featured: true,
+    socialLinks: [
+      {
+        icon: 'fab fa-twitter',
+        link: 'https://twitter.com/gusz_pv',
+      },
+      {
+        icon: 'fab fa-linkedin',
+        link: 'https://www.linkedin.com/in/gustavo-pacchi-villarroel/',
+      },
+      {
+        icon: 'fab fa-instagram',
+        link: 'https://www.instagram.com/gusz.pv/?hl=es-la',
+      }
+    ]
+  },
+  {
     name: 'Cristhian Rocha',
     shortName: 'Cristhian Rocha',
     imageSrc: 'assets/img/organizers/cristian-rocha.png',
@@ -73,27 +94,6 @@ const organizers: Person[] = [
       {
         icon: 'fab fa-instagram',
         link: 'https://www.instagram.com/melany.rocha.code?igsh=ZTU5MGRkOHVsdnFn',
-      }
-    ]
-  },
-  {
-    name: 'Gustavo Pacchi Villarroel',
-    shortName: 'Gustavo Pacchi',
-    imageSrc: 'assets/img/organizers/gustavo-pachi.png',
-    bio: `Gustavo es Product Designer con amplia experiencia en diseño de interfaces, de experiencias de usuario, desarrollo de marcas, diseño gráfico y diseño de animaciones. Entusiasta por la tecnología y los eventos, participa activamente en comunidades ejerciendo como líder, como diseñador y/o editando videos para promocionar eventos. Sus aficiones son trotar, nadar y pasar tiempo con sus perros.`,
-    featured: true,
-    socialLinks: [
-      {
-        icon: 'fab fa-twitter',
-        link: 'https://twitter.com/gusz_pv',
-      },
-      {
-        icon: 'fab fa-linkedin',
-        link: 'https://www.linkedin.com/in/gustavo-pacchi-villarroel/',
-      },
-      {
-        icon: 'fab fa-instagram',
-        link: 'https://www.instagram.com/gusz.pv/?hl=es-la',
       }
     ]
   },
