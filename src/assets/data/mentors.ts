@@ -171,7 +171,7 @@ const mentors: Person[] = [
   },
   {
     name: 'Maria Fernanda Nuñez del Prado',
-    shortName: 'Maria Nuñez',
+    shortName: 'Fer Nuñez del Prado',
     imageSrc: 'assets/img/mentors/maria-nunez.jpg',
     bio: `Estoy muy emocionada por cómo se mueve últimamente el mundo de la tecnología, cada día es un nuevo día para aprender :) Desde el año pasado empecé a participar en la comunidad de Angular Bolivia y me encanta esta nueva experiencia!!`,
     socialLinks: [
