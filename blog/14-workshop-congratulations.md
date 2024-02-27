@@ -26,11 +26,11 @@ Después de eso, asegúrate de seguir nuestra página **Angular Bolivia** en <a 
 
 ## ¿Quieres seguir estudiando?
 
-¡Claro que sí! Una guía bastante completa es la <a href="https://angular.io/start" target="_blank" rel="noopener noreferrer">documentación oficial de Angular</a>. También puedes intentar con alguno de los recursos listados a continuación. ¡Todos son muy recomendados!
+¡Claro que sí! Una guía bastante completa es la <a href="https://angular.dev" target="_blank" rel="noopener noreferrer">documentación oficial de Angular</a>. También puedes intentar con alguno de los recursos listados a continuación. ¡Todos son muy recomendados!
 
-- <a href="https://medium.com/@jorgeucano/angular-cli-mini-curso-9f8b00543f1b" target="_blank" rel="noopener noreferrer">Angular CLI — mini curso - Jorge Cano</a>
-- <a href="https://www.youtube.com/playlist?list=PLK7sa90aSLe7RW_7qotGlmBxMtm-jajCG" target="_blank" rel="noopener noreferrer">Curso de Angular - CodigoMentor</a>
-- <a href="https://codecraft.tv/courses/angular/" target="_blank" rel="noopener noreferrer">Angular - Codecraft</a>
-- <a href="https://www.youtube.com/c/nicobytes/" target="_blank" rel="noopener noreferrer">Videos de Angular - Nicobytes</a>
+- <a href="https://angular.dev/tutorials" target="_blank" rel="noopener noreferrer">Angular Tutorial</a>. Tutorial oficial elaborado por el equipo de Angular en Google, que incluye una guía paso a paso para conocer más del framework.
+- <a href="https://angular.dev/playground" target="_blank" rel="noopener noreferrer">Angular Playground</a>. Un sitio en el que puedes probar y aprender con tu código al estilo de Stackblitz. Explora las plantillas que se tienen en dicha página.
+
+¿Te gustaría explorar más retos con tu proyecto actual? Consulta posibles tareas adicionales a tu mentor.
 
 [< Artículo anterior: ¡Comparte tu app!](/blog/13-workshop-share)
