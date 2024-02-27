@@ -54,6 +54,30 @@ const organizers: Person[] = [
     ]
   },
   {
+    name: 'Nicolas Molina Monroy',
+    shortName: 'Nicolas Molina',
+    imageSrc: 'assets/img/mentors/nicolas-molina.jpg',
+    bio: `"I’m Software Senior Developer and Teacher at Platzi. With more than 8 years of professional software development experience focusing in Web Development, Tech Management and skills for problem-solving. I’m passionate about sharing my knowledge with the community about Web Development and I do this through code contributions, videos, conferences, articles and, creating online content therefore I got recognized by Google like an GDE (Google Developer Expert)  in Angular and by Microsoft like an MVP (Most Value Professional). When I'm not coding share time with my son and my wife and I really like to travel across the world and meet other cultures.`,
+    socialLinks: [
+      {
+        icon: 'fab fa-twitter',
+        link: 'https://twitter.com/nicobytes',
+      }
+    ]
+  },
+  {
+    name: 'Zulema Vicente',
+    shortName: 'Zulema Vicente',
+    imageSrc: 'assets/img/mentors/zulema-vicente.jpg',
+    bio: `Soy Zulema Vicente, de Cochabamba, Bolivia. Mi interés en la tecnología me llevó a estudiar Ingeniería Industrial y de Sistemas. Durante 4 años trabajé en el desarrollo de aplicaciones web y móviles. Luego, me especialicé en Diseño UX/UI en plataformas como Platzi y Coderhouse, aplicando mis habilidades en empresas como Pil Andina y Ganatech por más de 2 años. Soy parte de la comunidad de AngularBolivia.`,
+    socialLinks: [
+      {
+        icon: 'fab fa-linkedin',
+        link: 'https://www.linkedin.com/in/vpzulema/',
+      }
+    ]
+  },
+  {
     name: 'Cristhian Rocha',
     shortName: 'Cristhian Rocha',
     imageSrc: 'assets/img/organizers/cristian-rocha.png',
@@ -167,8 +191,8 @@ const organizers: Person[] = [
   },
   {
     name: 'Maria Fernanda Nuñez del Prado Barbery',
-    shortName: 'Maria Nuñez',
-    imageSrc: 'assets/img/organizers/maria-nunez.png',
+    shortName: 'Fer Nuñez del Prado',
+    imageSrc: 'assets/img/organizers/maria-nunez.jpg',
     bio: `María Fernanda es Ingeniera Industrial y de Sistemas, actualmente trabaja como fullstack en Nice inContact y le gusta que le digan Fer. Le encanta la enseñanza y aprendizaje en diferentes ámbitos como el desarrollo de software, matemáticas y Zumba!.`,
   },
   {
@@ -198,7 +222,7 @@ const organizers: Person[] = [
   {
     name: 'Ronald Humberto Chipana Wariste',
     shortName: 'Ronald Chipana',
-    imageSrc: 'assets/img/mentors/ronald-chipana.jpg',
+    imageSrc: 'assets/img/organizers/ronald-chipana.jpg',
     bio: `Es ingeniero de software de profesión y cuenta con experiencia en el área de desarrollo de aplicaciones con herramientas de google, desarrollo de videojuegos para la educación y es docente de programación. Le apasiona la enseñanza de la tecnología razón por la cual  fundó la Academia TechKids donde promueve la educación STEAM desde temprana edad; es una persona muy dinámica y le encanta aprender, razón por la cual forma parte de distintas comunidades como GDG Cochabamba, Women Techmakers Cochabamba y Angular Bolivia.`,
     socialLinks: [
       {
@@ -206,7 +230,55 @@ const organizers: Person[] = [
         link: 'https://www.linkedin.com/in/ronald-chipana-w-63382688/',
       }
     ]
-  }
+  },
+  {
+    name: 'Luis Aviles',
+    shortName: 'Luis Aviles',
+    imageSrc: 'assets/img/organizers/luis-aviles.jpg',
+    bio: `Luis es Ingeniero de Sistemas y ha trabajado en el área de Ingeniería de Software para compañías norteamericanas de impacto global y startups desde 2011. Ha participado como expositor en múltiples conferencias internacionales de tecnología y es autor de artículos técnicos sobre desarrollo web y cursos en linea.Debido a sus contribuciones, ha sido reconocido por Google, Microsoft y Cloudinary.`,
+    socialLinks: [
+      {
+        icon: 'fab fa-github',
+        link: 'https://github.com/luixaviles',
+      },
+      {
+        icon: 'fab fa-twitter',
+        link: 'https://twitter.com/luixaviles',
+      }
+    ]
+  },
+  {
+    name: 'Leandro Soliz Alcocer',
+    shortName: 'Leandro Soliz',
+    imageSrc: 'assets/img/organizers/leandro-soliz.png',
+    bio: `Estudiante de ingenieria informatica entusiasta de aprender sobre inteligencia artificial`,
+    socialLinks: [
+      {
+        icon: 'fab fa-instagram',
+        link: 'https://www.instagram.com/lean.soliz/',
+      }
+    ]
+  },
+  {
+    name: 'Iveliz Ayala',
+    shortName: 'Iveliz Ayala',
+    imageSrc: 'assets/img/organizers/iveliz-ayala.png',
+    bio: `Iveliz es Software developer con experiencia en fullstack y tiene interes en el area de desarrollo y area de ciencia de datos, es apasionada por la tecnologia y le gusta divertirse jugando juegos y conociendo nuevas cafeterias`,
+    socialLinks: [
+      {
+        icon: 'fab fa-linkedin',
+        link: 'https://www.linkedin.com/in/iveliz-alexandra-ayala-lopez-79b2691b1/',
+      },
+      {
+        icon: 'fab fa-instagram',
+        link: 'https://www.instagram.com/starriixx/',
+      },
+      {
+        icon: 'fab fa-twitter',
+        link: 'https://twitter.com/AyalaIveliz',
+      }
+    ]
+  },
 ];
 
 export default organizers;
