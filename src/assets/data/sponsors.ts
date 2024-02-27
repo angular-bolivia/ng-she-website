@@ -25,6 +25,34 @@ const sponsors: Person[] = [
       },
     ],
   },
+  {
+    name: 'Ucatec',
+    shortName: 'Ucatec',
+    imageSrc: 'assets/img/sponsors/ucatec.png',
+    bio: `La Universidad UCATEC, ubicada en Cochabamba, se destaca como la pionera en formación de emprendedores a nivel nacional e internacional. Ofrece un modelo educativo innovador, SEPCO 5.0, que promueve el desarrollo pleno de habilidades a través de retos y métodos no convencionales, como visitas guiadas y trabajo multidisciplinario. Con un enfoque en competencias transversales, prepara a sus estudiantes para contribuir al desarrollo sostenible con propuestas creativas y técnicas.`,
+    socialLinks: [
+      {
+        icon: 'fas fa-globe',
+        link: 'https://ucatec.edu.bo/',
+      },
+    ],
+  },
+  {
+    name: 'Kevin Farid',
+    shortName: 'Kevin Farid',
+    imageSrc: 'assets/img/sponsors/kevin-farid.jpeg',
+    bio: `Kevin es Google Developer Expert en Angular, Frontend Engineer con mas de 5 años de experiencia, principalmente con Angular en ambientes bancarios, fintech y producto.`,
+    socialLinks: [
+      {
+        icon: 'fab fa-twitter',
+        link: 'https://twitter.com/kevindaviladev/',
+      },
+      {
+        icon: 'fab fa-youtube',
+        link: 'https://www.youtube.com/kevindaviladev',
+      },
+    ],
+  },
 ];
 
 export default sponsors;
