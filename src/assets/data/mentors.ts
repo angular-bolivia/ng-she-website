@@ -200,6 +200,14 @@ const mentors: Person[] = [
     bio: `Laura tiene más de 5 años de experiencia como ingeniera de software en diferentes empresas y actualmente trabaja en Assuresoft. Además de su sólida habilidad técnica, ha desarrollado habilidades fundamentales como la resolución de problemas, la mentoría, el aprendizaje constante, el liderazgo y la creatividad, entre otros. Es una entusiasta de la tecnología, apasionada por compartir sus conocimientos, lo que la ha llevado a ser embajadora de Women Techmakers (WTM) y a colaborar activamente en las comunidades GDG Cochabamba, WTM Cochabamba y Angular Bolivia.`,
     socialLinks: [
       {
+        icon: 'fab fa-linkedin',
+        link: 'https://www.linkedin.com/in/laurisueno',
+      },
+      {
+        icon: 'fab fa-twitter',
+        link: 'https://twitter.com/LauRisueno',
+      },
+      {
         icon: 'fab fa-facebook',
         link: 'https://www.facebook.com/laurisuenoarancibia',
       }

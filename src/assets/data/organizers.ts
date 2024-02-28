@@ -156,12 +156,12 @@ const organizers: Person[] = [
     bio: `Laura es ingeniera de software con más de 5 años de experiencia ha trabajado en distintas empresas y actualmente trabaja en Assuresoft. Posee habilidades técnicas sólidas y destacadas en resolución de problemas, mentoría, liderazgo y creatividad. Es embajadora de Women Techmakers y colabora activamente en GDG Cochabamba, WTM Cochabamba y Angular Bolivia.`,
     socialLinks: [
       {
-        icon: 'fab fa-twitter',
-        link: 'https://twitter.com/LauRisueno',
-      },
-      {
         icon: 'fab fa-linkedin',
         link: 'https://www.linkedin.com/in/laurisueno',
+      },
+      {
+        icon: 'fab fa-twitter',
+        link: 'https://twitter.com/LauRisueno',
       },
       {
         icon: 'fab fa-facebook',
