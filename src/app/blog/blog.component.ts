@@ -13,7 +13,7 @@ export class BlogComponent implements OnInit {
       title: 'Tutorial ng|she',
       description: `Primero que nada, nos alegra mucho tenerte aquí, nuestra misión es ayudarte a que te sientas cómoda todo el tiempo. Si
         en algún momento necesitas ayuda no dudes en buscarnos, estamos aquí para ti.`,
-      date: '21 de Febreror, 2024',
+      date: '21 de Febrero, 2024',
       link: '/blog/01-workshop-welcome',
     },
     {
