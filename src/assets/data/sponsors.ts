@@ -38,8 +38,8 @@ const sponsors: Person[] = [
     ],
   },
   {
-    name: 'Kevin Farid',
-    shortName: 'Kevin Farid',
+    name: 'Kevin Davila',
+    shortName: 'Kevin Davila',
     imageSrc: 'assets/img/sponsors/kevin-farid.png',
     bio: `Kevin es Google Developer Expert en Angular, Frontend Engineer con mas de 5 años de experiencia, principalmente con Angular en ambientes bancarios, fintech y producto.`,
     socialLinks: [
